@@ -2,7 +2,7 @@
 
 [![kubernetes](https://img.shields.io/badge/Kubernetes-Argo_CD-FF5D01?logo=Kubernetes)](https://argo-cd.readthedocs.io/en/stable/)
 
-> Code version control of multiple K8s Applications deployed with ArgoCD
+> Multi-application K8s manifests repository.
 
 ## Table of Contents
 
@@ -13,7 +13,7 @@
 
 ## Diagram
 
-![](./images/design.png)
+[![An old rock in the desert](/assets/images/diagram.jpg "ArgoCD Overview")](https://argo-cd.readthedocs.io/en/stable/)
 
 ## Prerequisites
 
