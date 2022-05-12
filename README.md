@@ -1,4 +1,4 @@
-# demo-app
+# k8s-apps
 
 [![kubernetes](https://img.shields.io/badge/Kubernetes-Argo_CD-FF5D01?logo=Kubernetes)](https://argo-cd.readthedocs.io/en/stable/)
 
@@ -6,7 +6,7 @@
 
 ## Table of Contents
 
-- [demo-app](#demo-app)
+- [k8s-apps](#k8s-apps)
   - [Table of Contents](#table-of-contents)
   - [Diagram](#diagram)
   - [Prerequisites](#prerequisites)
