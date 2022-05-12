@@ -8,12 +8,19 @@
 
 - [k8s-apps](#k8s-apps)
   - [Table of Contents](#table-of-contents)
-  - [Diagram](#diagram)
+  - [Datree policy check diagram](#datree-policy-check-diagram)
+  - [Deployment Diagram](#deployment-diagram)
   - [Prerequisites](#prerequisites)
 
-## Diagram
+## Datree policy check diagram
 
-[![An old rock in the desert](./assets/images/diagram.png "ArgoCD Overview")](https://argo-cd.readthedocs.io/en/stable/)
+[![Datree policy check](./assets/images/datree_diagram.png "ArgoCD Overview")](https://argo-cd.readthedocs.io/en/stable/)
+
+   source: https://argo-cd.readthedocs.io/en/stable/
+
+## Deployment Diagram
+
+[![ArgoCD Deployment](./assets/images/argocd_diagram.png "ArgoCD Overview")](https://argo-cd.readthedocs.io/en/stable/)
 
    source: https://argo-cd.readthedocs.io/en/stable/
 
