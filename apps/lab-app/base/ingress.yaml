@@ -1,0 +1,31 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  namespace: lab-app
+  name: lab-app
+  annotations:
+    alb.ingress.kubernetes.io/scheme: internal
+    alb.ingress.kubernetes.io/target-type: ip
+    alb.ingress.kubernetes.io/tags: app=lab-app,environment=dev
+    alb.ingress.kubernetes.io/actions.response-503: >
+      {"type":"fixed-response","fixedResponseConfig":{"contentType":"text/plain","statusCode":"503","messageBody":"503 error text"}}
+spec:
+  ingressClassName: alb
+  rules:
+    - host: "*.amazonaws.com"
+      http:
+        paths:
+          - path: /503
+            pathType: Exact
+            backend:
+              service:
+                name: response-503
+                port:
+                  name: use-annotation
+          - path: /app-echo
+            pathType: Prefix
+            backend:
+              service:
+                name: app-echo
+                port: 
+                  number: 80
