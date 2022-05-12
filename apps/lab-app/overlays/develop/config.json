@@ -1,0 +1,17 @@
+{
+    "environment": "develop",
+    "app": {
+      "name": "lab-app",
+      "namespace": "lab-app",
+      "project": "demo-project",
+      "source_path": {
+        "repoURL": "https://github.com/Kirmito/k8s-apps.git",
+        "targetRevision": "HEAD", 
+        "path": "apps/lab-app/overlays/develop/"
+      }
+    },
+    "cluster": {
+      "name": "develop-eks",
+      "address": "https://kubernetes.default.svc"
+    }
+}
