@@ -14,9 +14,7 @@
 
 ## Datree policy check diagram
 
-[![Datree policy check](./assets/images/datree_diagram.png "ArgoCD Overview")](https://argo-cd.readthedocs.io/en/stable/)
-
-   source: https://argo-cd.readthedocs.io/en/stable/
+[![Datree policy check](./assets/images/datree_diagram.png "Datree Overview")](https://www.datree.io/)
 
 ## Deployment Diagram
 
