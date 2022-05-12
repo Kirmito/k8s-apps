@@ -15,6 +15,8 @@
 
 [![An old rock in the desert](./assets/images/diagram.png "ArgoCD Overview")](https://argo-cd.readthedocs.io/en/stable/)
 
+   source: https://argo-cd.readthedocs.io/en/stable/
+
 ## Prerequisites
 
 You will need the following tools and config properly installed on your computer.
