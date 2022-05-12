@@ -13,7 +13,7 @@
 
 ## Diagram
 
-[![An old rock in the desert](/assets/images/diagram.jpg "ArgoCD Overview")](https://argo-cd.readthedocs.io/en/stable/)
+[![An old rock in the desert](./assets/images/diagram.png "ArgoCD Overview")](https://argo-cd.readthedocs.io/en/stable/)
 
 ## Prerequisites
 
